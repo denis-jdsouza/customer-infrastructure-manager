@@ -24,7 +24,7 @@ pipeline {
             }
         }
 
-        stage('Generate .env file') {
+        stage('Generate env-file') {
             steps {
                 sh '''
                     cat <<EOF > params_${BUILD_NUMBER}.env
