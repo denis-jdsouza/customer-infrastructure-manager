@@ -345,3 +345,6 @@ Waiting 120 seconds for application endpoints to be accessible..
   "module": "S3StateFileManager"
 }
 ```
+
+## ⚖️ License
+This project is licensed under the [MIT License](LICENSE) - see the file for details.
