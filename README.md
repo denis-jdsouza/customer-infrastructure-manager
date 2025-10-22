@@ -103,7 +103,7 @@ _Note:_
 
 ### Environment Variables
 
-The `main.py` script requires the following environment variables to be set before execution (e.g., in a CI stage or via the included `.env` file):
+The `main.py` script requires the following environment variables to be set before execution (e.g. in a CI stage or via the included test `.env` file):
 
 | Variable | Description | Example |
 | :--- | :--- | :--- |
@@ -134,7 +134,7 @@ Look for the `🎯 USER CONFIGURATION SECTION 🎯` in **`main.py`** and modify 
 
 ### 2. K8s Deployments List
 
-This is the list of K8s deployments the orchestrator will manage and monitor.
+This is the list of K8s deployments the automation will manage.
 
 ```python
 # Add or remove entries here to match the number of deployments you want to manage.
